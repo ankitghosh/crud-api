@@ -4,10 +4,10 @@ import bodyParser from "body-parser";
 
 const uuidv1 = require('uuid/v1');
 const connection = mysql.createConnection({
-  host     : 'localhost',
-  database : 'db',
-  user     : 'root',
-  password : 'Lnm_2711',
+  host     : 'name-list.cxj3kuethmvo.ap-south-1.rds.amazonaws.com\n',
+  database : 'tmp',
+  user     : 'admin',
+  password : 'Lnm_2310',
 });
 
 const app = express();
